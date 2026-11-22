@@ -8,7 +8,7 @@
 [![Documentation](https://img.shields.io/badge/type-public%20case%20study-3e5771?style=flat-square)](docs/SECURITY_AND_SCOPE.md)
 [![Code](https://img.shields.io/badge/source-proprietary-6d6070?style=flat-square)](docs/SECURITY_AND_SCOPE.md)
 
-[**Explore actual published work**](https://x.com/TacticSpoort) · [**Architecture**](docs/ARCHITECTURE.md) · [**Evidence**](docs/PRODUCTION_EVIDENCE.md) · [**AMER on Snapchat**](https://www.snapchat.com/@amer.aaa)
+[**90-second tour for recruiters**](docs/RECRUITER_TOUR.md) · [**Published work**](https://x.com/TacticSpoort) · [**Architecture**](docs/ARCHITECTURE.md) · [**AMER on Snapchat**](https://www.snapchat.com/@amer.aaa)
 
 </div>
 
@@ -133,7 +133,7 @@ This is an illustration of transferable architecture, **not** a claim that those
 
 | Document | Why it matters |
 | :-- | :-- |
-| [Production evidence](docs/PRODUCTION_EVIDENCE.md) | Metrics, date, source and limitations |
+| [90-second recruiter tour](docs/RECRUITER_TOUR.md) | Fast, nontechnical tour with published examples |\n| [Engineering case study](docs/ENGINEERING_CASE_STUDY.md) | Design decisions, reliability and transferability |\n| [Production evidence](docs/PRODUCTION_EVIDENCE.md) | Metrics, date, source and limitations |
 | [Content taxonomy and post links](docs/CONTENT_GALLERY.md) | The actual range of output families |
 | [Architecture](docs/ARCHITECTURE.md) | Reliability, workflow separation and review |
 | [Security and disclosure](docs/SECURITY_AND_SCOPE.md) | What is intentionally excluded |
