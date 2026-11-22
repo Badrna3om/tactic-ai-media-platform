@@ -32,6 +32,10 @@ Instead of showcasing hundreds of automation nodes, this repository shows the **
 
 </div>
 
+**▶ [Play the 60-second silent overview video](assets/tactic-showreel.mp4)** · [Follow the 90-second nontechnical tour](docs/RECRUITER_TOUR.md)
+
+*The MP4 is a narrated-by-on-screen-text portfolio montage made from selected published graphic outputs and explanatory slides — not a screen recording of the full production UI or a claim of automated Snapchat uploads.*
+
 ## Production snapshot
 
 | **3,091** | **837** | **3,517** | **403** |
