@@ -1,106 +1,148 @@
-# TACTIC AI Media Production Platform
+<div align="center">
 
-**A live, multi-pipeline AI media operation — production case study**  
-**Architecture & automation:** Badreldin Mohamed Awad  
-**Status:** Operating in production · **Source code:** Proprietary / not included here
+![TACTIC × AMER — AI media production](assets/tactic-banner.svg)
 
-> **One operating system. Multiple media products.** TACTIC transforms football match data, editorial leads and video sources into branded news, graphics, analysis, matchday content, and video deliverables. It combines automated processing with human editorial review.
+**A production AI automation case study, not a workflow template.**
 
-[**Explore published TACTIC work ↗**](https://x.com/TacticSpoort) · [**Explore AMER's public Snapchat ↗**](https://www.snapchat.com/@amer.aaa) · [**Production evidence ↓**](#production-evidence) · [**Content examples ↓**](#selected-real-world-outputs)
+[![Status](https://img.shields.io/badge/status-live%20production-23644d?style=flat-square)](https://x.com/TacticSpoort)
+[![Documentation](https://img.shields.io/badge/type-public%20case%20study-3e5771?style=flat-square)](docs/SECURITY_AND_SCOPE.md)
+[![Code](https://img.shields.io/badge/source-proprietary-6d6070?style=flat-square)](docs/SECURITY_AND_SCOPE.md)
+
+[**Explore actual published work**](https://x.com/TacticSpoort) · [**Architecture**](docs/ARCHITECTURE.md) · [**Evidence**](docs/PRODUCTION_EVIDENCE.md) · [**AMER on Snapchat**](https://www.snapchat.com/@amer.aaa)
+
+</div>
 
 ---
 
-## At a glance
+## A digital media team — operating as a system
 
-| Verified operational snapshot | Recorded volume |
-| :-- | --: |
-| Content jobs in **rendered** state | **3,091** |
-| Publishing queue records in **published** state | **837** |
-| Indexed source videos in the X media vault | **3,517** |
-| Registered motion media assets | **403** |
-| Publishing records in the previous seven days | **96** |
+I designed and operate interconnected AI-driven workflows that transform **live sports data, editorial news signals, and video sources** into multiple branded media outputs.
 
-*Read-only database snapshot: **23 November 2026**. Counts refer to distinct operational records, **not** unique social impressions, total account posts, videos successfully published to Snapchat, or measured time saved. See [evidence definitions](docs/PRODUCTION_EVIDENCE.md).*
+The platform handles the coordination between **collection → qualification → editorial decisions → content and media production → human review → publishing or delivery**, with task tracking and recovery.
 
-## What the platform produces
+Instead of showcasing hundreds of automation nodes, this repository shows the **real outputs**, **engineering decisions**, and **publicly verifiable evidence** of an operating media system.
 
-| Production stream | Examples |
-| :-- | :-- |
-| **Match intelligence** | Starting XIs, match statistics, results, player-of-the-match cards |
-| **Round & competition intelligence** | Team of the round, player rankings, goal/assist/shot/pass/dribble leaders, league tables and upcoming fixtures |
-| **AI newsroom** | News briefs, transfer updates, club developments, deduplicated editorial cards |
-| **Editorial features** | Data patterns, tactical analysis, historical features, player profiles and explainers |
-| **AMER-branded production** | Separately branded matchday fixtures, results and editorial visuals |
-| **Motion & video** | Source-video monitoring, goal-media collection, match-linked video assets, reel rendering and Telegram delivery |
+## 15-second visual tour
 
-The streams have different readiness and publishing rules. **A produced asset is not automatically a published social post.**
+<div align="center">
 
-## Visual examples from live production
+![Animated showcase of six real TACTIC production formats](assets/production-reel.webp)
 
-The images below are **already-published TACTIC outputs**, linked to their corresponding public X posts. They are hotlinked from the existing public output files; **no original photos or footage are redistributed in this repository**.
+*Animated preview assembled from six resized examples of **already-published** TACTIC artwork; this is a static portfolio selection, not a live dashboard or a demonstration of automated Snapchat posting.*
 
-| Starting XI | Match statistics | Player of the match | News |
+</div>
+
+## Production snapshot
+
+| **3,091** | **837** | **3,517** | **403** |
 | :--: | :--: | :--: | :--: |
-| [![Starting XI](https://drive.google.com/uc?export=download&id=1cXmNIcl63RyKoag1abtiyejXM2gh_dY4)](https://x.com/TacticSpoort/status/2124483139678384632) | [![Match statistics](https://drive.google.com/uc?export=download&id=1hHiFyyMNAkxr2HrJKKTA0-efH-2DQM2m)](https://x.com/TacticSpoort/status/2124525366769234248) | [![Player of the match](https://drive.google.com/uc?export=download&id=1LM1UW7o9xjhwMNvxtwK045NRa4cLc1OB)](https://x.com/TacticSpoort/status/2124530161156510070) | [![News graphic](https://drive.google.com/uc?export=download&id=19zYsex5oeFhL2Q02mLWvmKlwLrbTtS0H)](https://x.com/TacticSpoort/status/2124535428401266694) |
+| Rendered content jobs | Records marked published | Indexed source videos | Motion media assets |
 
-*If external image previews are blocked by GitHub or Google Drive, follow the linked X posts to view the originals.*
+**96 publishing records in the prior seven days.**
 
-## Selected real-world outputs
+*Read-only operational snapshot taken **23 November 2026**. These are recorded states/counts, **not** unique social posts, views, revenue, measured staff hours saved, or successful Snapchat uploads. Full [metric definitions](docs/PRODUCTION_EVIDENCE.md).*
 
-These are links to **published TACTIC posts**, not mockups:
+## Actual production gallery
 
-| Example | Public proof |
-| :-- | :-- |
-| Match statistics | [Published match-stats card](https://x.com/TacticSpoort/status/2124629151449583946) |
-| Starting lineup | [Published lineup graphic](https://x.com/TacticSpoort/status/2124483139678384632) |
-| Player of the match | [Published player card](https://x.com/TacticSpoort/status/2124582742360764647) |
-| League standings | [Published league table](https://x.com/TacticSpoort/status/2124245056773058993) |
-| Team of the round | [Published best-XI graphic](https://x.com/TacticSpoort/status/2119499245065519230) |
-| Round figures | [Published round-stats card](https://x.com/TacticSpoort/status/2124216319578894649) |
-| News production | [Published news post](https://x.com/TacticSpoort/status/2124641048093733372) |
+Click any preview to see the **original published X post**. All six thumbnails are downsized previews of existing published TACTIC content, rather than stock images.
 
-**AMER / Snapchat:** the operation includes dedicated AMER-branded daily fixtures/results and video-preparation flows. [View the public @amer.aaa Snapchat profile](https://www.snapchat.com/@amer.aaa). The public profile is provided as a brand reference, **not** proof that every video is uploaded automatically.
+<table>
+<tr>
+<td width="33%" align="center"><a href="https://x.com/TacticSpoort/status/2124483139678384632"><img src="assets/starting-xi.webp" alt="Real starting XI production" width="240"/></a><br/><strong>Starting XI</strong><br/><sub>Matchday lineups</sub></td>
+<td width="33%" align="center"><a href="https://x.com/TacticSpoort/status/2124525366769234248"><img src="assets/match-stats.webp" alt="Real match stats production" width="240"/></a><br/><strong>Match statistics</strong><br/><sub>Head-to-head analytics</sub></td>
+<td width="33%" align="center"><a href="https://x.com/TacticSpoort/status/2124530161156510070"><img src="assets/player-star.webp" alt="Real player of the match production" width="240"/></a><br/><strong>Player of the match</strong><br/><sub>Performance cards</sub></td>
+</tr>
+<tr>
+<td width="33%" align="center"><a href="https://x.com/TacticSpoort/status/2124535428401266694"><img src="assets/newsroom.webp" alt="Real branded news production" width="240"/></a><br/><strong>AI newsroom</strong><br/><sub>Branded editorial cards</sub></td>
+<td width="33%" align="center"><a href="https://x.com/TacticSpoort/status/2119499245065519230"><img src="assets/best-xi.webp" alt="Real best eleven production" width="240"/></a><br/><strong>Team of the round</strong><br/><sub>Round-level intelligence</sub></td>
+<td width="33%" align="center"><a href="https://x.com/TacticSpoort/status/2124245056773058993"><img src="assets/standings.webp" alt="Real league table production" width="240"/></a><br/><strong>League table</strong><br/><sub>Competition intelligence</sub></td>
+</tr>
+</table>
 
-For a broader breakdown, see the [content gallery and production taxonomy](docs/CONTENT_GALLERY.md).
+**[Browse additional formats and public evidence →](docs/CONTENT_GALLERY.md)**
 
-## How it works
+## One match, several distinct outputs
 
-```mermaid
-flowchart TD
-  A["Match data · news · video sources"] --> B["Validation & event matching"]
-  B --> C["Editorial intelligence & content queues"]
-  C --> D["Graphics & video production"]
-  D --> E["Human review, correction & approval"]
-  E --> F["Approved social publishing / delivery"]
-  C --> G["Monitoring, retry & traceability"]
-  D --> G
-  F --> G
+A single monitored event can generate multiple complementary products. The **Barcelona–Villarreal** example in this gallery provides three identifiable published artifacts:
+
+```text
+Match scheduled
+    │
+    ├── Starting XI / team lists  ──► Published graphic
+    │
+    └── Match data updated
+          ├── Match statistics ─────► Published graphic
+          └── Player performance ───► Player-of-match card
 ```
 
-This is an **intentionally high-level** diagram. Internal decision rules, workflow exports, provider integrations, credentials, database structure and production endpoints are not public.
+See the [starting XI](https://x.com/TacticSpoort/status/2124483139678384632), [match statistics](https://x.com/TacticSpoort/status/2124525366769234248), and [player-of-the-match](https://x.com/TacticSpoort/status/2124530161156510070) posts. This is an illustrative **real production lineage**, not a promise that every match always produces every format.
 
-## Why this is an engineering project
+## Six connected production capabilities
 
-- Designed around **separate ingestion, decision, production and delivery stages**, rather than a single automation script.
-- Uses **database-backed task state, retry paths and deduplication controls** to support ongoing production.
-- Integrates **AI editorial assistance with human approvals** before sensitive publishing decisions.
-- Produces **multiple branded content families** from shared operational data.
-- Coordinates **video/media handling and specialist rendering services**, not just text generation.
-- Provides **inspectable production evidence** and separates delivered, rendered and published status.
+| Production domain | What happens | Demonstrable output |
+| :-- | :-- | :-- |
+| **1. Match intelligence** | Monitor scheduled/live match data and create relevant match-specific jobs | Lineups, results, stats, star cards |
+| **2. Round & league analysis** | Aggregate competition/round data into recurring formats | Best XI, statistics leaders, standings, next fixtures |
+| **3. AI newsroom** | Intake sports leads, assess relevance, detect duplicates, write Arabic content | Branded news cards and posts |
+| **4. Editorial intelligence** | Propose and develop data-led or editorial story angles | Player features, club stories, transfer analysis, VAR and tactical explainers |
+| **5. Multi-brand creative output** | Produce content with separate brand templates and correction flows | TACTIC graphics; AMER fixtures/results/news visuals |
+| **6. Motion and delivery** | Catalog media, associate goal videos with events, prepare vertical content, deliver MP4 | Goal-related video deliverables and Telegram handoff |
 
-**Technology categories:** n8n · PostgreSQL/Supabase · LLM APIs · REST APIs/webhooks · cloud file storage · Telegram review flows · social publishing integrations · containerized media services.
+**Human approvals are part of the product design.** Rendering, editorial approval, delivery and actual social publication are distinct lifecycle states.
 
-## Transferability beyond sports
+### AMER — dedicated brand workflows
 
-The underlying pattern — *capture → classify → validate → generate → review → execute → monitor* — applies to customer intake, document processing, recruitment operations, e-commerce and business reporting. This is a **transferability illustration**, not a claim that those specific workflows are part of TACTIC.
+The platform also supports separately branded **AMER** matchday fixtures/results, editorial corrections and vertical video preparation. Related services receive video links or uploaded media, render formatted content and can deliver it to Telegram for the publishing operator.
 
-## Documentation
+[**View public AMER Snapchat profile**](https://www.snapchat.com/@amer.aaa).
 
-- [Public architecture and reliability notes](docs/ARCHITECTURE.md)
-- [Real content formats and links](docs/CONTENT_GALLERY.md)
-- [Evidence, metric definitions and limitations](docs/PRODUCTION_EVIDENCE.md)
-- [Security, intellectual-property and disclosure boundaries](docs/SECURITY_AND_SCOPE.md)
+> Important: I have verified **video preparation and Telegram delivery workflows**, but not automatic posting to Snapchat. This case study does **not** represent Snapchat publication as fully automated or claim that every content family is posted automatically.
+
+## Architecture — understandable at a glance
+
+![TACTIC public architecture: ingest, analyze, produce, review, deliver](assets/system-map.svg)
+
+- **Orchestration:** separate specialized automation services and event-driven workflows.
+- **Operational state:** database-backed jobs, status transitions, reservations, retries, and audit trails.
+- **Editorial layer:** AI-assisted selection and writing with duplicate detection and human oversight.
+- **Media layer:** managed lookup and recovery paths for required imagery and videos.
+- **Delivery layer:** publishing queue, editorial approval, social posting and video handoff.
+
+**Stack categories:** n8n · PostgreSQL / Supabase · LLM APIs · JavaScript · REST / Webhooks · Google Drive · Telegram · social publishing APIs · containerized media services.
+
+[**Read the architecture and failure-handling notes →**](docs/ARCHITECTURE.md)
+
+## Engineering challenges solved
+
+- **Reliability at multiple stages:** a task can wait for missing data or media without being treated as successful.
+- **Idempotency & duplicates:** repeated events and callbacks require stable identities and guardrails.
+- **Human-in-the-loop:** editors can approve, reject, correct text or replace visual assets.
+- **Media orchestration:** asset search, missing-asset intake, rendering and delivery are decoupled.
+- **Two brand identities:** shared infrastructure can serve different content standards and templates.
+- **Operational observability:** task stages and delivery outcomes are recorded and inspectable.
+
+## Why this matters beyond sports
+
+The same engineering method applies to sales, document intake, customer operations, e-commerce and internal reporting:
+
+`Observe → Validate → Decide → Generate → Approve → Execute → Monitor`
+
+This is an illustration of transferable architecture, **not** a claim that those other industry workflows are part of this specific platform.
+
+## Explore the documentation
+
+| Document | Why it matters |
+| :-- | :-- |
+| [Production evidence](docs/PRODUCTION_EVIDENCE.md) | Metrics, date, source and limitations |
+| [Content taxonomy and post links](docs/CONTENT_GALLERY.md) | The actual range of output families |
+| [Architecture](docs/ARCHITECTURE.md) | Reliability, workflow separation and review |
+| [Security and disclosure](docs/SECURITY_AND_SCOPE.md) | What is intentionally excluded |
 
 ---
 
-**Disclosure:** This is a **public case study** of an actively operated proprietary system, not a source-code release, setup guide, licensed data feed or invitation to access production. Brand media and public links are shown as examples of output; rights to individual underlying photographs or footage may belong to their respective owners.
+### Security and ownership
+
+**This is a public case study, not an open-source release.** Production workflow exports, private APIs, service credentials, internal endpoints, commercial selection rules and confidential operating information are not included. Portfolio previews are resized from already public branded posts; source photography, footage and third-party rights remain with their respective owners. No raw source-video files are distributed.
+
+**Author / systems engineering:** Badreldin Mohamed Awad · [GitHub portfolio](https://github.com/Badrna3om)
+
