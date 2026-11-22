@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="290" viewBox="0 0 1200 290" role="img" aria-label="Public high-level TACTIC processing architecture">
+<rect width="1200" height="290" rx="20" fill="#0c1521"/>
+<text x="600" y="40" fill="#eed394" font-family="Arial,Helvetica,sans-serif" text-anchor="middle" font-size="21" font-weight="700">FROM SOURCE SIGNAL TO PUBLISHED MEDIA</text>
+<g font-family="Arial,Helvetica,sans-serif" text-anchor="middle">
+<rect x="20" y="75" width="210" height="154" rx="16" fill="#1d3346" stroke="#4b7183" stroke-width="2"/><text x="125" y="131" fill="#f3f6fb" font-size="21" font-weight="700">INGEST</text><text x="125" y="169" fill="#9ed9df" font-size="15">Matches · News · Video</text>
+<rect x="255" y="75" width="210" height="154" rx="16" fill="#1d3346" stroke="#4b7183" stroke-width="2"/><text x="360" y="131" fill="#f3f6fb" font-size="21" font-weight="700">ANALYZE</text><text x="360" y="169" fill="#9ed9df" font-size="15">Validate · Prioritize</text>
+<rect x="490" y="75" width="210" height="154" rx="16" fill="#1d3346" stroke="#4b7183" stroke-width="2"/><text x="595" y="131" fill="#f3f6fb" font-size="21" font-weight="700">PRODUCE</text><text x="595" y="169" fill="#9ed9df" font-size="15">Graphics · Content</text>
+<rect x="725" y="75" width="210" height="154" rx="16" fill="#3b3227" stroke="#d6ac69" stroke-width="2"/><text x="830" y="131" fill="#f3f6fb" font-size="21" font-weight="700">REVIEW</text><text x="830" y="169" fill="#efcb8d" font-size="15">Human checkpoints</text>
+<rect x="960" y="75" width="215" height="154" rx="16" fill="#1d3346" stroke="#4b7183" stroke-width="2"/><text x="1067" y="131" fill="#f3f6fb" font-size="21" font-weight="700">DELIVER</text><text x="1067" y="169" fill="#9ed9df" font-size="15">Publish · Send Media</text></g>
+<path d="M230 150h25 M465 150h25 M700 150h25 M935 150h25" stroke="#eecb83" stroke-width="5"/>
+<text x="600" y="267" fill="#91acbd" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="15">Auditability • Deduplication • Task state • Retries • Asset resolution</text>
+</svg>
