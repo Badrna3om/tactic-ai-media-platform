@@ -6,7 +6,7 @@
 
 **TACTIC × AMER** is a real sports-media production operation built around connected AI-assisted workflows. It produces **multiple branded editorial, visual and video formats** from structured event sources.
 
-[Watch the animated 15-second preview](../assets/production-reel.webp).
+[Watch the animated 15-second preview](../assets/production-reel.webp) or [play the full 60-second silent overview (MP4)](../assets/tactic-showreel.mp4).
 
 ## 15–45 seconds: one event, several products
 
